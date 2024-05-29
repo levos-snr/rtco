@@ -81,6 +81,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
+      '@inlang/cli':
+        specifier: ^2.18.0
+        version: 2.18.0
       '@inlang/paraglide-js':
         specifier: 1.9.1
         version: 1.9.1
@@ -470,6 +473,11 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+
+  '@inlang/cli@2.18.0':
+    resolution: {integrity: sha512-f29aD3sWFSwyw6SLBZf7vk27qnGtjl/0OfEXpGYr+y1q0HVxXAMdJPiaUmX6n8ZrvN+8hOm/Qoz02KR7Zy50bA==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
 
   '@inlang/detect-json-formatting@1.0.0':
     resolution: {integrity: sha512-o0jeI8U4TgNlsPwI0y92jld8/18Loh2KEgHCYCJ42rCOdxFrA8R60cydlEd2/6jkdHFn5DxKj8rOyiKv3z9uOw==}
@@ -1834,6 +1842,11 @@ packages:
   es-to-primitive@1.2.1:
     resolution: {integrity: sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==}
     engines: {node: '>= 0.4'}
+
+  esbuild-wasm@0.19.12:
+    resolution: {integrity: sha512-Zmc4hk6FibJZBcTx5/8K/4jT3/oG1vkGTEeKJUQFCUQKimD6Q7+adp/bdVQyYJFolMKaXkQnVZdV4O5ZaTYmyQ==}
+    engines: {node: '>=12'}
+    hasBin: true
 
   escalade@3.1.2:
     resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
@@ -4255,6 +4268,10 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
+  '@inlang/cli@2.18.0':
+    dependencies:
+      esbuild-wasm: 0.19.12
+
   '@inlang/detect-json-formatting@1.0.0':
     dependencies:
       guess-json-indent: 2.0.0
@@ -5821,6 +5838,8 @@ snapshots:
       is-callable: 1.2.7
       is-date-object: 1.0.5
       is-symbol: 1.0.4
+
+  esbuild-wasm@0.19.12: {}
 
   escalade@3.1.2: {}
 

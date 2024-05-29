@@ -58,6 +58,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@inlang/cli": "^2.18.0",
     "@inlang/paraglide-js": "1.9.1",
     "@playwright/test": "^1.44.0",
     "@testing-library/jest-dom": "^6.4.5",
