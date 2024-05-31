@@ -10,6 +10,10 @@ const config = {
   ],
   prefix: '',
   theme: {
+    colors: {
+      mygrey: '#1e1e1e',
+      myorange: '#ff7e67',
+    },
     fontFamily: {
       sans: ['var(--font-sans)'],
       mono: ['var(--font-mono)'],

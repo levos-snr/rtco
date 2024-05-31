@@ -1,10 +1,22 @@
-import { Loader2, LogOut, LucideProps, Moon, Sun } from 'lucide-react';
+import {
+  CalendarHeart,
+  LayoutDashboard,
+  Loader2,
+  LogOut,
+  LucideProps,
+  Moon,
+  SlidersVertical,
+  Sun,
+} from 'lucide-react';
 
 export const Icons = {
   sun: Sun,
   moon: Moon,
   logOut: LogOut,
   loader: Loader2,
+  calendarHeart: CalendarHeart,
+  layoutDashboard: LayoutDashboard,
+  slidersVertical: SlidersVertical,
   github: (props: LucideProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
       <path
